@@ -21,7 +21,7 @@ namespace Calculator
                 Console.WriteLine("Первое число: ");
                 fn = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Выбор действия *, /, +, -, % ");
+                Console.WriteLine("Выбор действия *, /, +, -, %, ^ ");
                 o = Convert.ToString(Console.ReadLine());
 
                 Console.WriteLine("Второе число: ");
@@ -67,6 +67,11 @@ namespace Calculator
                     answ = fn % sn;
                     Console.WriteLine("Результат: " + answ);
 
+                }
+                if (o == "^")
+                {
+                    answ = Math.Pow(fn, sn);
+                    Console.WriteLine("Результат: " + answ);
                 }
                 Console.WriteLine("Совершить еще одну операцию?");
                 cont = Convert.ToString(Console.ReadLine());

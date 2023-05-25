@@ -8,7 +8,7 @@ namespace Calculator
         {
 
             string cont;
-
+            Console.WriteLine("Здравствуйте! Вас приветствует программа Калькулятор!");
             do
             {
 

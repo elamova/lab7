@@ -53,12 +53,12 @@ namespace Calculator
 
                 if (o == "/")
                 {
-                    //if (sn != 0)
-                    //{
+                    if (sn != 0)
+                    {
                         answ = fn / sn;
                         Console.WriteLine("Результат: " + answ);
-                    //}
-                    //else Console.WriteLine("Делить на ноль нельзя");
+                    }
+                    else Console.WriteLine("Делить на ноль нельзя");
 
                 }
                 //if (o == "%")

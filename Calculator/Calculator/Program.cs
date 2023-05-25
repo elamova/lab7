@@ -72,7 +72,7 @@ namespace Calculator
                     answ = Math.Pow(fn, sn);
                     Console.WriteLine("Результат: " + answ);
                 }
-                Console.WriteLine("Совершить еще одну операцию?");
+                Console.WriteLine("Совершить еще одну операцию или выйти?");
                 cont = Convert.ToString(Console.ReadLine());
             } while (cont == "yes");
         }

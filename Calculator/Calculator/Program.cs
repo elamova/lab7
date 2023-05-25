@@ -50,7 +50,6 @@ namespace Calculator
                     Console.WriteLine("Результат: " + answ);
 
                 }
-
                 if (o == "/")
                 {
                     if (sn != 0)
@@ -75,7 +74,6 @@ namespace Calculator
                 }
                 Console.WriteLine("Совершить еще одну операцию?");
                 cont = Convert.ToString(Console.ReadLine());
-
             } while (cont == "yes");
         }
     }

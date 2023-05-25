@@ -77,7 +77,6 @@ namespace Calculator
                 cont = Convert.ToString(Console.ReadLine());
 
             } while (cont == "yes");
-
         }
     }
 }
